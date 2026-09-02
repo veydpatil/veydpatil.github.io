@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "vinext dev",
-    "build": "vinext build && for slug in quadruped inverted-pendulum path-planning localization amazon-suitcase usar; do mkdir -p dist/client/projects/$slug && cp dist/client/projects/$slug.html dist/client/projects/$slug/index.html; done",
+    "build": "vinext build && for slug in quadruped inverted-pendulum path-planning localization amazon-suitcase collapsible-camping-chair usar; do mkdir -p dist/client/projects/$slug && cp dist/client/projects/$slug.html dist/client/projects/$slug/index.html; done",
     "start": "wrangler dev --config dist/server/wrangler.json",
     "lint": "oxlint",
     "format": "oxfmt"
