@@ -36,3 +36,15 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+
+# Original media stays local; optimized copies for the site live in public/projects.
+/Amazon_CAD.jpg
+/Amazon_Interal.png
+/Amazon_Suitcase.mov
+/Amazon_external.jpeg
+/Control_video.mov
+/Deploy_Path_Planning.mov
+/Localization.mov
+/Movement controls with camera.MOV
+/Robot_Gearing_Class.png
+/Wavefront.png
